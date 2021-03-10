@@ -1,0 +1,9 @@
+<h1 class="display-4 text-primary">Hello#index</h1>
+<p><%= @msg %></p>
+<hr>
+<div><%=link_to 'login_check page!&gt;&gt;'.html_safe, {action:'login_check'} %></div>
+<!--
+destroy_モデル名_session_pathは，ログアウトするページのアドレスがある．
+deleteメソッドという特殊なHTTPメソッドでないとアクセスできない
+-->
+<div><%= link_to "Sign out&gt;&gt;".html_safe, destroy_account_session_path, method: :delete %></div>

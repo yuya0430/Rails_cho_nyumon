@@ -1,0 +1,41 @@
+<h1 class="display-4 text-primary">Blogposts#edit</h1>
+<p>※「<%= @blogpost.title %>」の編集</p>
+<% if @blogpost.errors.any? %>
+<ul>
+	<% @blogpost.errors.full_messages.each do |err| %>
+		<li><%= err %></li>
+	<% end %>
+</ul>
+<% end %>
+<%= form_for(@blogpost, url:{controller:'blogposts', action:'add'}) do |form| %>
+	<div class="form-group">
+		<label for="title">Title</label>
+		<%= form.text_field :title,{class:"form-control"} %>
+	</div>
+	<div class="form-group">
+		<label for="read">Read</label>
+		<%= form.text_field :read,{class:"form-control"} %>
+	</div>
+  <div class="form-group">
+		<label for="content">Content</label>
+		<%= form.rich_text_area :content %>
+	</div>
+  <div class="form-group">
+		<label for="bloggenre_id">Genre ID</label>
+		<%= form.text_field :bloggenre_id,{class:"form-control"} %>
+	</div>
+	<td><%= form.submit "更新" %></td>
+<% end %>
+<h5 class="mt-4 text-primary">※ジャンルの一覧</h5>
+<table class="table">
+  <tr>
+    <th>ID</th>
+    <th>Genre</th>
+  </tr>
+  <% @genres.each do |obj| %>
+  <tr>
+    <td><%= obj.id %></td>
+    <td><%= obj.name %></td>
+  </tr>
+  <% end %>
+</table>

@@ -1,0 +1,6 @@
+<h2 class="mb-5"><%= @blogpost.title %></h2>
+
+<p><%= @blogpost.read + ' [' + @blogpost.bloggenre.name + '] ' %></p>
+
+<%= @blogpost.content %>
+<p class="show_created">(<%= @blogpost.created_at %>)</p>

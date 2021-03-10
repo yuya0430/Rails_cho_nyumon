@@ -1,0 +1,517 @@
+Started GET "/hello" for ::1 at 2021-02-13 15:48:03 +0900
+  [1m[35m (5.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/hello/" for ::1 at 2021-02-13 15:48:22 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/hello/" for ::1 at 2021-02-13 15:49:11 +0900
+  
+SyntaxError (C:/Users/yuyay/Documents/Rails_cho_nyumon/RailsReactApp/config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+  get 'hello' to: 'hello#index'
+              ^~):
+  
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+Started GET "/hello/" for ::1 at 2021-02-13 15:49:52 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HelloController#index as HTML
+  Rendering hello/index.html.erb within layouts/application
+[Webpacker] Compiling...
+Started GET "/hello" for ::1 at 2021-02-13 15:50:01 +0900
+[Webpacker] Compiled all packs in C:/Users/yuyay/Documents/Rails_cho_nyumon/RailsReactApp/public/packs
+[Webpacker] Hash: e8fba1620ceec58c5849
+Version: webpack 4.46.0
+Time: 7735ms
+Built at: 2021/02/13 15:50:05
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-07e792d2b65403c647a1.js    124 KiB  application  [emitted] [immutable]  application
+js/application-07e792d2b65403c647a1.js.map    139 KiB  application  [emitted] [dev]        application
+    js/hello_react-438d299bc9d869e8075b.js    1.1 MiB  hello_react  [emitted] [immutable]  hello_react
+js/hello_react-438d299bc9d869e8075b.js.map   1.27 MiB  hello_react  [emitted] [dev]        hello_react
+                             manifest.json  703 bytes               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_react = js/hello_react-438d299bc9d869e8075b.js js/hello_react-438d299bc9d869e8075b.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 18 hidden modules
+
+  Rendered hello/index.html.erb within layouts/application (Duration: 12219.2ms | Allocations: 5706)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12402ms (Views: 12399.0ms | ActiveRecord: 0.0ms | Allocations: 24750)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HelloController#index as HTML
+  Rendering hello/index.html.erb within layouts/application
+Started GET "/" for ::1 at 2021-02-13 15:50:05 +0900
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered hello/index.html.erb within layouts/application (Duration: 76.9ms | Allocations: 2558)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.0.3.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.0.3.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.5ms | Allocations: 275)
+Completed 200 OK in 14ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 1009)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 176ms (Views: 174.5ms | ActiveRecord: 0.0ms | Allocations: 12579)
+
+
+Started GET "/hello" for ::1 at 2021-02-13 16:01:02 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HelloController#index as HTML
+  Rendering hello/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/yuyay/Documents/Rails_cho_nyumon/RailsReactApp/public/packs
+[Webpacker] Hash: 051ec54f5da49557e9bf
+Version: webpack 4.46.0
+Time: 2798ms
+Built at: 2021/02/13 16:01:10
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-07e792d2b65403c647a1.js    124 KiB  application  [emitted] [immutable]  application
+js/application-07e792d2b65403c647a1.js.map    139 KiB  application  [emitted] [dev]        application
+    js/hello_react-dc65e4e38a06c634fd33.js    1.1 MiB  hello_react  [emitted] [immutable]  hello_react
+js/hello_react-dc65e4e38a06c634fd33.js.map   1.27 MiB  hello_react  [emitted] [dev]        hello_react
+                             manifest.json  703 bytes               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_react = js/hello_react-dc65e4e38a06c634fd33.js js/hello_react-dc65e4e38a06c634fd33.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.8 KiB {hello_react} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 18 hidden modules
+
+  Rendered hello/index.html.erb within layouts/application (Duration: 8550.4ms | Allocations: 4647)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8621ms (Views: 8615.5ms | ActiveRecord: 0.0ms | Allocations: 9907)
+
+
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (23.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (17.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateData (20210213070509)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE TABLE "data" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" text, "mail" text, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210213070509"]]
+  [1m[35m (14.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (2.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-02-13 07:06:41.266540"], ["updated_at", "2021-02-13 07:06:41.266540"]]
+  [1m[35m (20.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDatum Create (1.8ms)[0m  [1m[32mINSERT INTO "data" ("id", "name", "mail", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 1], ["name", "Taro"], ["mail", "taro@yamada"], ["created_at", "2021-02-13 07:08:28.374486"], ["updated_at", "2021-02-13 07:08:28.374486"]]
+  [1m[35m (16.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDatum Create (1.1ms)[0m  [1m[32mINSERT INTO "data" ("id", "name", "mail", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 2], ["name", "Hanako"], ["mail", "hanako@flower"], ["created_at", "2021-02-13 07:08:28.397895"], ["updated_at", "2021-02-13 07:08:28.397895"]]
+  [1m[35m (15.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDatum Create (2.0ms)[0m  [1m[32mINSERT INTO "data" ("id", "name", "mail", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 3], ["name", "Sachiko"], ["mail", "sachiko@happy"], ["created_at", "2021-02-13 07:08:28.420917"], ["updated_at", "2021-02-13 07:08:28.420917"]]
+  [1m[35m (12.7ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/hello" for ::1 at 2021-02-13 16:22:17 +0900
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HelloController#index as HTML
+  Rendering hello/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/yuyay/Documents/Rails_cho_nyumon/RailsReactApp/public/packs
+[Webpacker] Hash: 63b374b1408bb3c1159e
+Version: webpack 4.46.0
+Time: 2479ms
+Built at: 2021/02/13 16:22:24
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+     js/dummy_data-fd41f8e1268f2f5de55d.js   1.1 MiB   dummy_data  [emitted] [immutable]  dummy_data
+ js/dummy_data-fd41f8e1268f2f5de55d.js.map  1.27 MiB   dummy_data  [emitted] [dev]        dummy_data
+    js/hello_react-dc65e4e38a06c634fd33.js   1.1 MiB  hello_react  [emitted] [immutable]  hello_react
+js/hello_react-dc65e4e38a06c634fd33.js.map  1.27 MiB  hello_react  [emitted] [dev]        hello_react
+                             manifest.json  1.01 KiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint dummy_data = js/dummy_data-fd41f8e1268f2f5de55d.js js/dummy_data-fd41f8e1268f2f5de55d.js.map
+Entrypoint hello_react = js/hello_react-dc65e4e38a06c634fd33.js js/hello_react-dc65e4e38a06c634fd33.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/dummy_data.jsx] 2.05 KiB {dummy_data} [built]
+[./app/javascript/packs/hello_react.jsx] 1.8 KiB {hello_react} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 18 hidden modules
+
+  Rendered hello/index.html.erb within layouts/application (Duration: 6330.8ms | Allocations: 4858)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6623ms (Views: 6613.0ms | ActiveRecord: 0.0ms | Allocations: 26655)
+
+
+Started GET "/data" for ::1 at 2021-02-13 16:22:30 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/data"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/data/index" for ::1 at 2021-02-13 16:22:41 +0900
+Processing by DataController#index as HTML
+  Rendering data/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered data/index.html.erb within layouts/application (Duration: 47.6ms | Allocations: 2225)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 120ms (Views: 116.0ms | ActiveRecord: 0.0ms | Allocations: 7381)
+
+
+Started GET "/data/ajax" for ::1 at 2021-02-13 16:22:42 +0900
+Processing by DataController#ajax as */*
+  [1m[36mDatum Load (0.6ms)[0m  [1m[34mSELECT "data".* FROM "data"[0m
+  ↳ app/controllers/data_controller.rb:11:in `ajax'
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 2)
+Completed 200 OK in 23ms (Views: 8.3ms | ActiveRecord: 2.2ms | Allocations: 6081)
+
+
+Started GET "/data/index?name=Taro" for ::1 at 2021-02-13 16:25:01 +0900
+Processing by DataController#index as HTML
+  Parameters: {"name"=>"Taro"}
+  Rendering data/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered data/index.html.erb within layouts/application (Duration: 51.5ms | Allocations: 2172)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 117ms (Views: 116.8ms | ActiveRecord: 0.0ms | Allocations: 6729)
+
+
+Started GET "/data/ajax?name=Taro" for ::1 at 2021-02-13 16:25:01 +0900
+Processing by DataController#ajax as */*
+  Parameters: {"name"=>"Taro"}
+  [1m[36mDatum Load (0.4ms)[0m  [1m[34mSELECT "data".* FROM "data" WHERE (name like ?%Taro%)[0m
+  ↳ app/controllers/data_controller.rb:11:in `ajax'
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.4ms | Allocations: 1789)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near ")": syntax error):
+  
+app/controllers/data_controller.rb:11:in `ajax'
+Started GET "/data/index?name=taro" for ::1 at 2021-02-13 16:25:10 +0900
+Processing by DataController#index as HTML
+  Parameters: {"name"=>"taro"}
+  Rendering data/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered data/index.html.erb within layouts/application (Duration: 41.1ms | Allocations: 2172)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 105ms (Views: 104.0ms | ActiveRecord: 0.0ms | Allocations: 6727)
+
+
+Started GET "/data/ajax?name=taro" for ::1 at 2021-02-13 16:25:10 +0900
+Processing by DataController#ajax as */*
+  Parameters: {"name"=>"taro"}
+  [1m[36mDatum Load (0.4ms)[0m  [1m[34mSELECT "data".* FROM "data" WHERE (name like ?%taro%)[0m
+  ↳ app/controllers/data_controller.rb:11:in `ajax'
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.4ms | Allocations: 1754)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near ")": syntax error):
+  
+app/controllers/data_controller.rb:11:in `ajax'
+Started GET "/data/index" for ::1 at 2021-02-13 16:25:23 +0900
+Processing by DataController#index as HTML
+  Rendering data/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered data/index.html.erb within layouts/application (Duration: 56.1ms | Allocations: 2175)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 122ms (Views: 121.0ms | ActiveRecord: 0.0ms | Allocations: 6746)
+
+
+Started GET "/data/ajax" for ::1 at 2021-02-13 16:25:23 +0900
+Processing by DataController#ajax as */*
+  [1m[36mDatum Load (0.4ms)[0m  [1m[34mSELECT "data".* FROM "data"[0m
+  ↳ app/controllers/data_controller.rb:11:in `ajax'
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 12ms (Views: 3.3ms | ActiveRecord: 0.4ms | Allocations: 1477)
+
+
+Started GET "/data/index?name=Hanako" for ::1 at 2021-02-13 16:27:40 +0900
+Processing by DataController#index as HTML
+  Parameters: {"name"=>"Hanako"}
+  Rendering data/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered data/index.html.erb within layouts/application (Duration: 45.1ms | Allocations: 2172)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 113ms (Views: 111.8ms | ActiveRecord: 0.0ms | Allocations: 6728)
+
+
+Started GET "/data/ajax?name=Hanako" for ::1 at 2021-02-13 16:27:40 +0900
+Processing by DataController#ajax as */*
+  Parameters: {"name"=>"Hanako"}
+  [1m[36mDatum Load (0.3ms)[0m  [1m[34mSELECT "data".* FROM "data" WHERE (name like ?%Hanako%)[0m
+  ↳ app/controllers/data_controller.rb:11:in `ajax'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.3ms | Allocations: 1726)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near ")": syntax error):
+  
+app/controllers/data_controller.rb:11:in `ajax'
+Started GET "/data/index?name=Hanako" for ::1 at 2021-02-13 16:29:32 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DataController#index as HTML
+  Parameters: {"name"=>"Hanako"}
+  Rendering data/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered data/index.html.erb within layouts/application (Duration: 37.8ms | Allocations: 2141)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 103ms (Views: 102.4ms | ActiveRecord: 0.0ms | Allocations: 6858)
+
+
+Started GET "/data/ajax?name=Hanako" for ::1 at 2021-02-13 16:29:32 +0900
+Processing by DataController#ajax as */*
+  Parameters: {"name"=>"Hanako"}
+  [1m[36mDatum Load (0.7ms)[0m  [1m[34mSELECT "data".* FROM "data" WHERE (name like '%Hanako%')[0m
+  ↳ app/controllers/data_controller.rb:11:in `ajax'
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 15ms (Views: 1.7ms | ActiveRecord: 2.7ms | Allocations: 5253)
+
+
+Started GET "/data/ajax" for ::1 at 2021-02-13 16:36:02 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DataController#ajax as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 2)
+Completed 200 OK in 621ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 37286)
+
+
+Started GET "/data/index" for ::1 at 2021-02-13 16:46:12 +0900
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DataController#index as HTML
+  Rendering data/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/yuyay/Documents/Rails_cho_nyumon/RailsReactApp/public/packs
+[Webpacker] Hash: f2c9d405a4859f881579
+Version: webpack 4.46.0
+Time: 2930ms
+Built at: 2021/02/13 16:46:19
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+     js/dummy_data-ba0f29e7524a7d70d3d4.js   1.1 MiB   dummy_data  [emitted] [immutable]  dummy_data
+ js/dummy_data-ba0f29e7524a7d70d3d4.js.map  1.27 MiB   dummy_data  [emitted] [dev]        dummy_data
+    js/hello_react-dc65e4e38a06c634fd33.js   1.1 MiB  hello_react  [emitted] [immutable]  hello_react
+js/hello_react-dc65e4e38a06c634fd33.js.map  1.27 MiB  hello_react  [emitted] [dev]        hello_react
+                             manifest.json  1.01 KiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint dummy_data = js/dummy_data-ba0f29e7524a7d70d3d4.js js/dummy_data-ba0f29e7524a7d70d3d4.js.map
+Entrypoint hello_react = js/hello_react-dc65e4e38a06c634fd33.js js/hello_react-dc65e4e38a06c634fd33.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/dummy_data.jsx] 3.54 KiB {dummy_data} [built]
+[./app/javascript/packs/hello_react.jsx] 1.8 KiB {hello_react} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 18 hidden modules
+
+  Rendered data/index.html.erb within layouts/application (Duration: 7259.2ms | Allocations: 4536)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7334ms (Views: 7333.4ms | ActiveRecord: 0.0ms | Allocations: 9385)
+
+
+Started GET "/data/ajax" for ::1 at 2021-02-13 16:46:20 +0900
+Processing by DataController#ajax as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 274ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 12168)
+
+
+Started GET "/data/index" for ::1 at 2021-02-13 16:49:21 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DataController#index as HTML
+  Rendering data/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered data/index.html.erb within layouts/application (Duration: 44.4ms | Allocations: 2141)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 110ms (Views: 108.7ms | ActiveRecord: 0.0ms | Allocations: 6859)
+
+
+Started GET "/data/ajax" for ::1 at 2021-02-13 16:49:21 +0900
+Processing by DataController#ajax as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 233ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 10436)
+
+
+Started GET "/data/index" for ::1 at 2021-02-13 16:51:36 +0900
+Processing by DataController#index as HTML
+  Rendering data/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/yuyay/Documents/Rails_cho_nyumon/RailsReactApp/public/packs
+[Webpacker] Hash: 68704c79e6c30073f171
+Version: webpack 4.46.0
+Time: 2591ms
+Built at: 2021/02/13 16:51:43
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+     js/dummy_data-c966580229c56f69e3b6.js   1.1 MiB   dummy_data  [emitted] [immutable]  dummy_data
+ js/dummy_data-c966580229c56f69e3b6.js.map  1.27 MiB   dummy_data  [emitted] [dev]        dummy_data
+    js/hello_react-dc65e4e38a06c634fd33.js   1.1 MiB  hello_react  [emitted] [immutable]  hello_react
+js/hello_react-dc65e4e38a06c634fd33.js.map  1.27 MiB  hello_react  [emitted] [dev]        hello_react
+                             manifest.json  1.01 KiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint dummy_data = js/dummy_data-c966580229c56f69e3b6.js js/dummy_data-c966580229c56f69e3b6.js.map
+Entrypoint hello_react = js/hello_react-dc65e4e38a06c634fd33.js js/hello_react-dc65e4e38a06c634fd33.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/dummy_data.jsx] 3.63 KiB {dummy_data} [built]
+[./app/javascript/packs/hello_react.jsx] 1.8 KiB {hello_react} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 18 hidden modules
+
+  Rendered data/index.html.erb within layouts/application (Duration: 6594.7ms | Allocations: 4584)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6656ms (Views: 6654.9ms | ActiveRecord: 0.0ms | Allocations: 9146)
+
+
+Started GET "/data/ajax" for ::1 at 2021-02-13 16:51:43 +0900
+Processing by DataController#ajax as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 178ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 10445)
+
+
+Started GET "/data/index" for ::1 at 2021-02-13 18:07:49 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DataController#index as HTML
+  Rendering data/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered data/index.html.erb within layouts/application (Duration: 53.6ms | Allocations: 2141)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 112ms (Views: 110.1ms | ActiveRecord: 0.0ms | Allocations: 6861)
+
+
+Started GET "/data/ajax" for ::1 at 2021-02-13 18:07:50 +0900
+Processing by DataController#ajax as */*
+Completed 500 Internal Server Error in 21224ms (ActiveRecord: 0.0ms | Allocations: 971)
+
+
+  
+Errno::ETIMEDOUT (Failed to open TCP connection to queryfeed.net:443 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. - connect(2) for "queryfeed.net" port 443)):
+  
+app/controllers/data_controller.rb:9:in `ajax'
+Started GET "/data/index" for ::1 at 2021-02-13 18:24:00 +0900
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DataController#index as HTML
+  Rendering data/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered data/index.html.erb within layouts/application (Duration: 68.6ms | Allocations: 2142)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 140ms (Views: 136.2ms | ActiveRecord: 0.0ms | Allocations: 6853)
+
+
+Started GET "/data/ajax" for ::1 at 2021-02-13 18:24:01 +0900
+Processing by DataController#ajax as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 230ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 10435)
+
+

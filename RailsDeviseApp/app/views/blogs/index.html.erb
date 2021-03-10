@@ -1,0 +1,9 @@
+<% @data.each do |obj| %>
+  <h3><a href="/blogs/show/<%= obj.id %>"><%= obj.title %></a></h3>
+  <p><%= obj.read %><span class="top_created">
+    (<%= obj.created_at %>)</span></p>
+  <hr>
+<% end %>
+<div class="navigate">
+<nav><%= paginate @data %></nav>
+</div>

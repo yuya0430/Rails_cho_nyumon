@@ -1,0 +1,20 @@
+body {
+  background-color: #ffcccc;
+  color: #aa0000; font-size: 14pt;
+  margin: 10px 20px;
+}
+#header { }
+#main {
+  width: 75%; float: left;
+}
+#side {
+  width: 20%; float: right;
+}
+a {
+  color: #990000;
+  text-decoration: none;
+}
+a:hover {
+  color: #990000;
+  text-decoration: underline;
+}

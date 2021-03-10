@@ -10,7 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_02_12_180725) do
+ActiveRecord::Schema.define(version: 2021_02_13_050905) do
+
+  create_table "answers", force: :cascade do |t|
+    t.integer "question_id"
+    t.text "content"
+    t.text "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "cards", force: :cascade do |t|
     t.text "title"
@@ -30,10 +38,28 @@ ActiveRecord::Schema.define(version: 2021_02_12_180725) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "mycontacts", force: :cascade do |t|
+    t.text "name"
+    t.integer "age"
+    t.boolean "nationality"
+    t.text "mail"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "people", force: :cascade do |t|
     t.text "name"
     t.integer "age"
     t.text "mail"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "questions", force: :cascade do |t|
+    t.text "title"
+    t.text "content"
+    t.text "name"
+    t.boolean "finished"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
